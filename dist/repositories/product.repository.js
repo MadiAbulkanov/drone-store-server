@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductRepo = void 0;
-const Product_model_1 = require("@/models/Product.model");
+const Product_model_1 = require("../models/Product.model");
 class ProductRepo {
     async getProducts(filters) {
         const query = {};

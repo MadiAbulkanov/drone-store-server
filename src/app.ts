@@ -3,7 +3,7 @@ import express from 'express';
 import { Application, RequestHandler } from 'express';
 import { Route } from './interfaces/Route.inerface';
 import { AppInit } from './interfaces/AppInit.interface';
-import connectDB from '@/config/mongoConfig';
+import connectDB from './config/mongoConfig';
 
 class App {
   public app: Application;

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductService = void 0;
-const product_repository_1 = require("@/repositories/product.repository");
+const product_repository_1 = require("../repositories/product.repository");
 class ProductService {
     constructor() {
         this.repository = new product_repository_1.ProductRepo();

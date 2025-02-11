@@ -1,7 +1,8 @@
 import cors from 'cors';
 import logger from './middlewares/logger';
 import App from './app';
-import { ProductRoute } from '@/routes/product.route';
+import { ProductRoute } from './routes/product.route';
+import 'dotenv/config';
 
 const app = new App({
   port: process.env.PORT ? parseInt(process.env.PORT, 10) : 8000,

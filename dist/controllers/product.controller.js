@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductController = void 0;
-const product_service_1 = require("@/services/product.service");
+const product_service_1 = require("../services/product.service");
 class ProductController {
     constructor() {
         this.service = new product_service_1.ProductService();

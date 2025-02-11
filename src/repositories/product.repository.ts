@@ -1,4 +1,4 @@
-import { Product, IProduct } from '@/models/Product.model';
+import { Product, IProduct } from '../models/Product.model';
 import { FilterQuery } from 'mongoose';
 
 export class ProductRepo {

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 require("reflect-metadata");
 const express_1 = tslib_1.__importDefault(require("express"));
-const mongoConfig_1 = tslib_1.__importDefault(require("@/config/mongoConfig"));
+const mongoConfig_1 = tslib_1.__importDefault(require("./config/mongoConfig"));
 class App {
     constructor(appInit) {
         this.app = (0, express_1.default)();

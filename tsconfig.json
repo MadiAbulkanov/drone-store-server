@@ -5,6 +5,7 @@
     "pretty": true,
     "sourceMap": true,
     "outDir": "dist",
+    "baseUrl": "./src",
     "importHelpers": true,
     "strict": true,
     "noImplicitAny": true,
@@ -18,7 +19,7 @@
 
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     },
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
